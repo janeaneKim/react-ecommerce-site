@@ -5,7 +5,7 @@ const LeviApp2 = () => {
     <><>
           <Navbar />
           <section className='section'>
-              <h2>NeoWrap</h2>
+              <h2 class="Super">NeoWrap</h2>
               <p>Made out of a soft, skin friendly and breathable fabric. One size fits all. Easy to wrap around and affix – make sure the wrap is fastened loosely enough for you not to feel any discomfort. Keeps your NeoRhythm in place while you are on the go so you can move around with ease. Can also be used overnight.</p>
               <Outlet />
           </section>
