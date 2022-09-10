@@ -1,91 +1,43 @@
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+import LeviApp from './pages/LeviApp';
+import LeviApp2 from './pages/LeviApp2'
+import Error from './pages/Error';
 import './App.css';
+import Neo1 from'./Images/Neo1.png';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, Link, Outlet} from 'react-router-dom';
 
-function Product(){
-  <div>
-
-  </div>
-}
-
-function App() {
+function App  ()  {
   return (
-    <div>
-      <h1>E-Commerce Site</h1>
-      <Container>
-        <Row>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Row>
-
-      <br/>
-
-      <Row>
-      <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Row>
-    </Container>
-    </div>
+ 
+        <Router>
+         
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="NeoRhythm" element={<LeviApp />} />
+            <Route path="NeoWrap" element={<LeviApp2 />} />
+            <Route path="*" element={<Error />} />
+            <Route/>
+          </Routes>
+          <footer></footer>
+        </Router>
   );
 }
 
-export default App;
+
+export default App
+
+
+
+
+  
+
+
+
+
+
+

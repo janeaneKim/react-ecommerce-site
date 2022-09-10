@@ -1,0 +1,60 @@
+.Stylee { font-style: italic;
+        font-weight: 200;
+        color: rgb(34, 109, 180);
+
+}
+.One  { width: 80px;
+        height: 90px;
+
+}
+
+.Two { width: 80px;
+       height: 90px;
+
+}
+
+.Three { width: 80px;
+    height: 90px;
+
+} 
+
+.Four { width: 80px;
+    height: 90px;
+
+}
+
+.Five { width: 80px;
+    height: 90px;
+
+} 
+
+.Six {  width: 80px;
+    height: 90px;
+
+}
+
+.Seven { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    height: 285px
+} 
+
+.Super {
+    font-style: italic;
+    font-weight: 200;
+    color: rgb(34, 109, 180);
+    object-fit: cover;
+}
+
+.NeoRhythm {width: 280px;
+           height:280px;
+           object-fit: contain;
+
+}
+
+.NeoWrap {width: 280px;
+    height:280px;
+    object-fit: contain;
+
+}
