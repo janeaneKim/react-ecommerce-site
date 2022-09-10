@@ -32,7 +32,7 @@ const LeviApp2 = () => {
               <p>
                   NeoRhythm assists your body’s natural recovery process to help you achieve greater balance and well-being.
               </p>
-              <img class="Five" src="image.png" alt="Energy" />
+              <img class="Five" src="https://omnipemf.com/wp-content/uploads/2021/06/Ikone-06.svg" alt="Energy" />
               <h5 class="Stylee">INCREASED ENERGY & VITALITY</h5>
               <p>
                   NeoRhytm introduces magnetic energy into your body to boost and revitalize energy levels.
