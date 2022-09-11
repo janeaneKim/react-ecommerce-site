@@ -1,9 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "../LeviApp.css"
+import { useState } from "react";
 
 const LeviApp = () => {
+  const [description] = useState("NeoRhythm helps your brain reach a meditative brainwave state for a more productive session.")
+  const [description2] = useState(" NeoRhythm assists your body’s natural recovery process to help you achieve greater balance and well-being.")
   return (
+  
     <><>
           <Navbar />
           <section className='section'>
@@ -18,7 +22,7 @@ const LeviApp = () => {
                   <img class="One" src="https://omnipemf.com/wp-content/uploads/2021/06/Ikone-03.svg" alt="Meditation"/>
                   <h5 class="Stylee">ENHANCED MEDITATION</h5> 
                   <p>
-                  NeoRhythm helps your brain reach a meditative brainwave state for a more productive session.
+                    {description}
                   </p>
                   <img class="Two" src="https://omnipemf.com/wp-content/uploads/2021/06/Ikone-04.svg" alt="Relaxation"/>
                 <h5 class="Stylee">REFRESHING RELAXATION</h5>
@@ -29,11 +33,11 @@ const LeviApp = () => {
                   <p>
                   NeoRhythm can slow down your brainwaves, by emitting theta and delta frequencies, to encourage faster and more sound sleep.                  </p>
                  <img class= "Four" src="https://omnipemf.com/wp-content/uploads/2021/06/Ikone-01.svg" alt="Well-Being"/>
-                 <h5 class= "Stylee">IMPROVED PHYSICAL WELL-BEING</h5> 
+                 <h5 class= "Stylee"> IMPROVED PHYSICAL WELL-BEING</h5> 
                  <p>
-                 NeoRhythm assists your body’s natural recovery process to help you achieve greater balance and well-being.
+                  {description2}
                  </p>
-                 <img class= "Five" src="image.png" alt="Energy"/>
+                 <img class= "Five" src="https://omnipemf.com/wp-content/uploads/2021/06/Ikone-06.svg" alt="Energy"/>
                  <h5 class ="Stylee">INCREASED ENERGY & VITALITY</h5>
                  <p>
                  NeoRhytm introduces magnetic energy into your body to boost and revitalize energy levels.
@@ -51,5 +55,6 @@ const LeviApp = () => {
  
  )
 };
+
 
 export default LeviApp;

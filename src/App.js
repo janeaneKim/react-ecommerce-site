@@ -4,7 +4,6 @@ import LeviApp from './pages/LeviApp';
 import LeviApp2 from './pages/LeviApp2'
 import Error from './pages/Error';
 import './App.css';
-import Neo1 from'./Images/Neo1.png';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -23,11 +22,11 @@ function App  ()  {
             <Route path="*" element={<Error />} />
             <Route/>
           </Routes>
-          <footer></footer>
         </Router>
   );
 }
 
+ 
 
 export default App
 
