@@ -1,7 +1,6 @@
 import React from "react";
 import '../Janeane.css';
 import Navbar from "../components/Navbar";
-import KeychronImg from '../Images/Keychron.webp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

@@ -1,7 +1,6 @@
 import React from "react";
 import '../Janeane.css';
 import Navbar from "../components/Navbar"; 
-import SakuraKeyboard from '../Images/SakuraKeyboard.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

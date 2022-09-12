@@ -7,8 +7,6 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import SakuraKeyboard from '../Images/SakuraKeyboard.jpg';
-import Keychron from '../Images/Keychron.webp'
 import ProductCard from '../pages/ProductCard.js';
 
 const Home = () => {
@@ -34,8 +32,9 @@ const Home = () => {
     }
 
     let HardDriveDock = {
+        link: "HardDriveDock",
         title: "Hard Drive Dock",
-        image: (<img class="HardDriveDock" src="./images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
+        image: (<img class="HardDriveDock" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
         price: (<div class="HardDriveDock">$25.99</div>)
     }
 
@@ -55,16 +54,7 @@ const Home = () => {
                         <ProductCard info={NeoWrap} />
                     </Col>
                     <Col>
-                        <Card >
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <ProductCard info={HardDriveDock} />
                     </Col>
                 </Row>
 
@@ -86,7 +76,7 @@ const Home = () => {
                     <Col>
                         <Card >
                             <Link to="keychron_k8_keyboard" style={{ color:"black", textDecoration: 'none' }} >
-                            <Image className="product-card" variant="top" src={Keychron} fluid={true} />
+                            <Image className="product-card" variant="top" src="/Images/Keychron.webp" fluid={true} />
                             <br/>
                             <Card.Body>
                                 <Card.Title>Keychron K8 Keyboard</Card.Title>
