@@ -9,8 +9,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import SakuraKeyboard from '../Images/SakuraKeyboard.jpg';
 import Keychron from '../Images/Keychron.webp'
+import ProductCard from '../pages/ProductCard.js';
 
 const Home = () => {
+    let NeoRhythm = {
+        title: "NeoRhythm",
+        image: ( <img class="NeoRhythm" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />),
+        price: (<div class="Neo">$299.99</div>)
+    }
+
+    let NeoWrap = {
+        title: "NeoWrap",
+        image: (<img class= "NeoWrap" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> ),
+        price: (<div class= "Neo2">$49.00</div> )
+    }
+
     return (
         <><>
             <Navbar />
@@ -21,31 +34,10 @@ const Home = () => {
         </><Container fluid ="xl">
                 <Row>
                     <Col>
-                        <Card>
-                        <Link to="NeoRhythm">
-                            <img class="NeoRhythm" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />
-
-                        </Link>
-                            <Card.Body>
-                                <Card.Title>NeoRhythm</Card.Title>
-                                <Card.Text>
-                                    <div class="Neo"></div>$299.99
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <ProductCard  info={NeoRhythm}/>
                     </Col>
                     <Col>
-                        <Card>
-                        <Link to= "NeoWrap">
-                                <img class= "NeoWrap" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> 
-                        </Link>
-                                <Card.Body>
-                                    <Card.Title>NeoWrap</Card.Title>
-                                    <Card.Text>
-                                    <div class= "Neo2"></div> $49.00
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                        <ProductCard info={NeoWrap} />
                     </Col>
                     <Col>
                         <Card >

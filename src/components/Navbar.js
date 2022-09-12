@@ -27,10 +27,14 @@ const Navbar = () => {
 
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Pricing</a>
-                </li>
+                    <a className="nav-link">
+                        <Link className="navigate" to='/keychron_k8_keyboard'>K8</Link>
+                    </a>
+                </li>      
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Disabled</a>
+                    <a className="nav-link">
+                        <Link className="navigate" to='/va88m_sakura_keyboard'>VA88M</Link>
+                    </a>
                 </li>
                 </ul>
             </div>
