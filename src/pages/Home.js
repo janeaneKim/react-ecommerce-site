@@ -13,21 +13,21 @@ const Home = () => {
     let NeoRhythm = {
         link: "NeoRhythm",
         title: "NeoRhythm",
-        image: ( <img class="NeoRhythm" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />),
+        image: ( <img class="product-card" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />),
         price: (<div class="Neo">$299.99</div>)
     }
 
     let NeoWrap = {
         link: "NeoWrap",
         title: "NeoWrap",
-        image: (<img class= "NeoWrap" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> ),
+        image: (<img class= "product-card" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> ),
         price: (<div class= "Neo2">$49.00</div> )
     }
 
     let HardDriveDock = {
         link: "HardDriveDock",
         title: "Hard Drive Dock",
-        image: (<img class="HardDriveDock" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
+        image: (<img class="HardDriveDock product-card" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
         price: (<div class="HardDriveDock">$25.99</div>)
     }
 
@@ -55,13 +55,13 @@ const Home = () => {
         
         </><Container fluid ="xl">
                 <Row>
-                    <Col>
+                    <Col md>
                         <ProductCard  info={NeoRhythm}/>
                     </Col>
-                    <Col>
+                    <Col md>
                         <ProductCard info={NeoWrap} />
                     </Col>
-                    <Col>
+                    <Col md>
                         <ProductCard info={HardDriveDock} />
                     </Col>
                 </Row>
@@ -69,7 +69,7 @@ const Home = () => {
                 <br />
 
                 <Row >
-                    <Col>
+                    <Col md>
                         <Card >
                             <Card.Img className="NeoRhythm" variant="top" src="holder.js/100px180" />
                             <Card.Body>
@@ -81,10 +81,10 @@ const Home = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col md>
                         <ProductCard  info={k8}/>
                     </Col>
-                    <Col>
+                    <Col md>
                         <ProductCard info={sakura} />
                     </Col>
                 </Row>
