@@ -27,10 +27,17 @@ const Home = () => {
     }
 
     let k8 ={
-        link: "NeoWrap",
-        title: "NeoWrap",
-        image: (<img class= "NeoWrap" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> ),
-        price: (<div class= "Neo2">$49.00</div> )
+        link: "keychron_k8_keyboard",
+        title: "Keychron K8 Keyboard",
+        image: ( <Image className="product-card" variant="top" src={Keychron} fluid={true} /> ),
+        price: (<div>$100.00</div> )
+    }
+
+    let sakura ={
+        link: "va88m_sakura_keyboard",
+        title: "Varmillo Sakura Edition Keyboard",
+        image: ( <Image className="product-card" variant="top" src={SakuraKeyboard} fluid={true}/> ),
+        price: (<div>$150.00</div> )
     }
 
     return (
@@ -78,32 +85,10 @@ const Home = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card >
-                            <Link to="keychron_k8_keyboard" style={{ color:"black", textDecoration: 'none' }} >
-                            <Image className="product-card" variant="top" src={Keychron} fluid={true} />
-                            <br/>
-                            <Card.Body>
-                                <Card.Title>Keychron K8 Keyboard</Card.Title>
-                                <Card.Text>
-                                    $100.00
-                                </Card.Text>
-                            </Card.Body>
-                            </Link>
-                        </Card>
+                        <ProductCard  info={k8}/>
                     </Col>
                     <Col>
-                        <Card >
-                            <Link to="va88m_sakura_keyboard" style={{ color:"black", textDecoration: 'none' }} >
-                            <Image className="product-card" variant="top" src={SakuraKeyboard} fluid={true}/>
-                            <br/>
-                            <Card.Body>
-                                <Card.Title>Varmillo Sakura Edition Keyboard</Card.Title>
-                                <Card.Text>
-                                    $150.00
-                                </Card.Text>
-                            </Card.Body>
-                            </Link>
-                        </Card>
+                        <ProductCard info={sakura} />
                     </Col>
                 </Row>
             </Container></>
