@@ -6,12 +6,9 @@ import Error from './pages/Error';
 import Sakura from './pages/Sakura';
 import Keychron from './pages/Keychron';
 import './App.css';
-<<<<<<< HEAD
-=======
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
->>>>>>> 39636d6b44035fe665a281b64c181ad716b58280
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Routes, Link, Outlet} from 'react-router-dom';
 import { MDBContainer, MDBFooter,MDBCol,MDBRow,MDBIcon } from "mdb-react-ui-kit";
@@ -19,22 +16,8 @@ import { MDBContainer, MDBFooter,MDBCol,MDBRow,MDBIcon } from "mdb-react-ui-kit"
 
 function App  ()  {
   return (
- 
-<<<<<<< HEAD
-        <Router>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="NeoRhythm" element={<LeviApp />} />
-            <Route path="NeoWrap" element={<LeviApp2 />} />
-            <Route path="*" element={<Error />} />
-            <Route path="va88m_sakura_keyboard" element={<Sakura />}/> 
-            <Route path="keychron_k8_keyboard" element={<Keychron />}/> 
-          </Routes>
-          <footer></footer>
-        </Router>
-=======
-        <><Router>
-
+    <div>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="NeoRhythm" element={<LeviApp />} />
@@ -44,7 +27,8 @@ function App  ()  {
         <Route path="keychron_k8_keyboard" element={<Keychron />}/> 
         <Route />
       </Routes>
-    </Router><MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+    </Router>
+    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
           <div className='me-5 d-none d-lg-block'>
             <span>"Ecommerce isn't the cherry on the cake, it's the new cake."</span>
@@ -136,8 +120,8 @@ function App  ()  {
             Whatever you guys want to call this
           </a>
         </div>
-      </MDBFooter></>
->>>>>>> 39636d6b44035fe665a281b64c181ad716b58280
+      </MDBFooter>
+      </div>
   );
 }
 
