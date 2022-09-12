@@ -27,7 +27,6 @@ function App  ()  {
         <Route path="keychron_k8_keyboard" element={<Keychron />}/> 
         <Route />
       </Routes>
-    </Router>
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
           <div className='me-5 d-none d-lg-block'>
@@ -72,9 +71,9 @@ function App  ()  {
               <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
                 <p>
-                  <a href='#!' className='text-reset'>
+                  <Link to="/NeoRhythm" className='text-reset'>
                     NeoRhythm
-                  </a>
+                  </Link>
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
@@ -121,6 +120,7 @@ function App  ()  {
           </a>
         </div>
       </MDBFooter>
+      </Router>
       </div>
   );
 }
