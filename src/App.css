@@ -44,3 +44,20 @@
   display: flex;
   gap: 1rem;
 }
+
+.navigate { color: inherit;  /* Inherit color from parent */
+  text-decoration: none; /* Removes underline */
+
+}
+
+#gfg{
+  position: "fixed",;
+  left: 0,;
+  bottom: 0,;
+  right: 0,;
+  backgroundColor: "green";
+}
+
+.list-unstyled mb-0 {font-style: italic;
+
+}

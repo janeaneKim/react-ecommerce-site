@@ -10,7 +10,7 @@ const LeviApp = () => {
   
     <><>
           <Navbar />
-          <section className='section'>
+          <section class='section'>
               <h2 class="Super">NeoRhythm</h2>
               <p>NeoRhythm is a pulsed electromagnetic field therapy device that emits corresponding dominant and accompanying frequencies to which the brain synchronizes, creating a perfect mental environment for the desired state of mind. </p>
               <Outlet />
