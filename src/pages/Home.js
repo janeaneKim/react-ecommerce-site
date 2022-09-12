@@ -7,8 +7,6 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import SakuraKeyboard from '../Images/SakuraKeyboard.jpg';
-import Keychron from '../Images/Keychron.webp'
 import ProductCard from '../pages/ProductCard.js';
 
 const Home = () => {
@@ -40,6 +38,13 @@ const Home = () => {
         price: (<div>$150.00</div> )
     }
 
+    let HardDriveDock = {
+        link: "HardDriveDock",
+        title: "Hard Drive Dock",
+        image: (<img class="HardDriveDock" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
+        price: (<div class="HardDriveDock">$25.99</div>)
+    }
+
     return (
         <><>
             <Navbar />
@@ -56,16 +61,7 @@ const Home = () => {
                         <ProductCard info={NeoWrap} />
                     </Col>
                     <Col>
-                        <Card >
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <ProductCard info={HardDriveDock} />
                     </Col>
                 </Row>
 
@@ -85,7 +81,22 @@ const Home = () => {
                         </Card>
                     </Col>
                     <Col>
+<<<<<<< HEAD
                         <ProductCard  info={k8}/>
+=======
+                        <Card >
+                            <Link to="keychron_k8_keyboard" style={{ color:"black", textDecoration: 'none' }} >
+                            <Image className="product-card" variant="top" src="/Images/Keychron.webp" fluid={true} />
+                            <br/>
+                            <Card.Body>
+                                <Card.Title>Keychron K8 Keyboard</Card.Title>
+                                <Card.Text>
+                                    $100.00
+                                </Card.Text>
+                            </Card.Body>
+                            </Link>
+                        </Card>
+>>>>>>> e20b5511b4a1ad77370b18b0ba7fbd7b2eb492b0
                     </Col>
                     <Col>
                         <ProductCard info={sakura} />
