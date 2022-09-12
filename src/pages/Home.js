@@ -24,26 +24,27 @@ const Home = () => {
         price: (<div class= "Neo2">$49.00</div> )
     }
 
-    let k8 ={
-        link: "keychron_k8_keyboard",
-        title: "Keychron K8 Keyboard",
-        image: ( <Image className="product-card" variant="top" src={Keychron} fluid={true} /> ),
-        price: (<div>$100.00</div> )
-    }
-
-    let sakura ={
-        link: "va88m_sakura_keyboard",
-        title: "Varmillo Sakura Edition Keyboard",
-        image: ( <Image className="product-card" variant="top" src={SakuraKeyboard} fluid={true}/> ),
-        price: (<div>$150.00</div> )
-    }
-
     let HardDriveDock = {
         link: "HardDriveDock",
         title: "Hard Drive Dock",
         image: (<img class="HardDriveDock" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
         price: (<div class="HardDriveDock">$25.99</div>)
     }
+
+    let k8 ={
+        link: "keychron_k8_keyboard",
+        title: "Keychron K8 Keyboard",
+        image: ( <Image className="product-card" variant="top" src="../Images/Keychron.webp" fluid={true} /> ),
+        price: (<div>$100.00</div> )
+    }
+
+    let sakura ={
+        link: "va88m_sakura_keyboard",
+        title: "Varmillo Sakura Edition Keyboard",
+        image: ( <Image className="product-card" variant="top" src="../Images/SakuraKeyboard.jpg" fluid={true}/> ),
+        price: (<div>$150.00</div> )
+    }
+
 
     return (
         <><>
@@ -81,22 +82,7 @@ const Home = () => {
                         </Card>
                     </Col>
                     <Col>
-<<<<<<< HEAD
                         <ProductCard  info={k8}/>
-=======
-                        <Card >
-                            <Link to="keychron_k8_keyboard" style={{ color:"black", textDecoration: 'none' }} >
-                            <Image className="product-card" variant="top" src="/Images/Keychron.webp" fluid={true} />
-                            <br/>
-                            <Card.Body>
-                                <Card.Title>Keychron K8 Keyboard</Card.Title>
-                                <Card.Text>
-                                    $100.00
-                                </Card.Text>
-                            </Card.Body>
-                            </Link>
-                        </Card>
->>>>>>> e20b5511b4a1ad77370b18b0ba7fbd7b2eb492b0
                     </Col>
                     <Col>
                         <ProductCard info={sakura} />

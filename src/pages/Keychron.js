@@ -35,7 +35,7 @@ return (
                 </Col>
 
                 <Col>
-                    <img src={KeychronImg} alt="keychron"></img>
+                    <img src="../Images/Keychron.webp" alt="keychron"></img>
                 </Col>
             </Row>
             <br/>

@@ -34,7 +34,7 @@ return (
                 </Col>
 
                 <Col>
-                    <img src={SakuraKeyboard} alt="sakura-keyboard" style={{maxHeight:"100%", maxWidth:"100%"}}></img>
+                    <img src="../Images/SakuraKeyboard.jpg" alt="sakura-keyboard" style={{maxHeight:"100%", maxWidth:"100%"}}></img>
                 </Col>
             </Row>
             <br/>
