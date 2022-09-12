@@ -1,6 +1,12 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import { Outlet, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import { useState } from "react";
+
 const LeviApp2 = () => {
+  const [Gif] = useState('https://i.makeagif.com/media/9-11-2022/h1-51r.gif')
+  const [Energy] = useState('INCREASED ENERGY & VITALITY') 
+  const [PEMF] = useState('PEMF effectively helps to enhance overall physical wellbeing, better movement and relieve strains.')
   return (
     <><>
           <Navbar />
@@ -21,7 +27,7 @@ const LeviApp2 = () => {
               <img class="Two" src="https://omnipemf.com/wp-content/uploads/2021/06/Ikone-08.svg" alt="Heart Rate" />
               <h5 class="Stylee">REFRESHING RELAXATION</h5>
               <p>
-              PEMF effectively helps to enhance overall physical wellbeing, better movement and relieve strains.
+                {PEMF}
               </p>
               <img class="Three" src="https://omnipemf.com/wp-content/uploads/2021/06/Ikone-02.svg" alt="Sleep" />
               <h5 class="Stylee">DEEPER SLEEP</h5>
@@ -33,7 +39,7 @@ const LeviApp2 = () => {
                   NeoRhythm assists your body’s natural recovery process to help you achieve greater balance and well-being.
               </p>
               <img class="Five" src="https://omnipemf.com/wp-content/uploads/2021/06/Ikone-06.svg" alt="Energy" />
-              <h5 class="Stylee">INCREASED ENERGY & VITALITY</h5>
+              <h5 class="Stylee">{Energy}</h5>
               <p>
                   NeoRhytm introduces magnetic energy into your body to boost and revitalize energy levels.
               </p>
@@ -43,7 +49,7 @@ const LeviApp2 = () => {
               NeoRhythm imitates the brain’s natural rhythms at rest and trains your brain to follow those rhythms. When you can calm your brain and body, you can calm your life and reach emotional balance and well-being.
               </p>
               <button type="button" class="btn btn-primary">Buy Now For $49.99</button>
-              <img Class="Seven" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl30sOGkvj7Oo2QO5Bb%2Fgiphy.gif&f=1&nofb=1" alt="Science!" />
+              <img class= "Seventy" src={Gif} alt="NeoWrap"/>
 
 
           </div></>

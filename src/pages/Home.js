@@ -8,21 +8,19 @@ import '../App.css';
 import SakuraKeyboard from '../Images/SakuraKeyboard.jpg';
 import Keychron from '../Images/Keychron.webp'
 
-
 const Home = () => {
     return (
         <><>
             <Navbar />
             <section className='section'>
-                <h2>E-Commerce Site</h2>
                 <Outlet />
             </section>
         
-        </><Container fluid={true}>
-                <Row >
+        </><Container fluid ="xl">
+                <Row>
                     <Card style={{ width: '18rem' }}>
                     <Link to="NeoRhythm">
-          <img class="NeoRhythm" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />
+                          <img class="NeoRhythm" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />
 
                     </Link>
                         <Card.Body>
@@ -34,7 +32,7 @@ const Home = () => {
                     </Card>
                     <Card style={{ width: '18rem' }}>
                   <Link to= "NeoWrap">
-                  <img class= "NeoWrap" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> 
+                         <img class= "NeoWrap" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> 
                   </Link>
                         <Card.Body>
                             <Card.Title>NeoWrap</Card.Title>

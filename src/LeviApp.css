@@ -1,8 +1,9 @@
 .Stylee { font-style: italic;
         font-weight: 200;
         color: rgb(34, 109, 180);
+        text-indent: 10px;   
+}   
 
-}
 .One  { width: 80px;
         height: 90px;
 
@@ -36,15 +37,15 @@
 .Seven { display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 680px;
-    height: 285px
+    width: 650px;
+    height: 275px
 } 
 
 .Super {
     font-style: italic;
     font-weight: 200;
     color: rgb(34, 109, 180);
-    object-fit: cover;
+    text-indent: 10px;   
 }
 
 .NeoRhythm {width: 280px;
@@ -57,4 +58,30 @@
     height:280px;
     object-fit: contain;
 
+}
+
+p {
+    text-indent: 10px;   
+
+}
+
+.Seventy { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    height: 285px
+
+}
+
+.Get {
+    color: red;
+} 
+
+.navbar-custom {
+    background-color: lightgreen;
+} 
+
+Link {
+    color: inherit;
+    text-decoration: inherit;
 }
