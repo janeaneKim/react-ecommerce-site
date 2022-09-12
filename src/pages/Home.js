@@ -5,6 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
+import SakuraKeyboard from '../Images/SakuraKeyboard.jpg';
+import Keychron from '../Images/Keychron.webp'
 
 
 const Home = () => {
@@ -16,8 +18,8 @@ const Home = () => {
                 <Outlet />
             </section>
         
-        </><Container>
-                <Row>
+        </><Container fluid={true}>
+                <Row >
                     <Card style={{ width: '18rem' }}>
                     <Link to="NeoRhythm">
           <img class="NeoRhythm" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />
@@ -55,7 +57,7 @@ const Home = () => {
 
                 <br />
 
-                <Row>
+                <Row >
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180" />
                         <Card.Body>
@@ -67,24 +69,28 @@ const Home = () => {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Link to="keychron_k8_keyboard" style={{ color:"black", textDecoration: 'none' }} >
+                        <Card.Img variant="top" src={Keychron} />
+                        <br/>
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Keychron K8 Keyboard</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                $100.00
                             </Card.Text>
                         </Card.Body>
+                        </Link>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Link to="va88m_sakura_keyboard" style={{ color:"black", textDecoration: 'none' }} >
+                        <Card.Img variant="top" src={SakuraKeyboard} />
+                        <br/>
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Varmillo Sakura Edition Keyboard</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                $150.00
                             </Card.Text>
                         </Card.Body>
+                        </Link>
                     </Card>
                 </Row>
             </Container></>
