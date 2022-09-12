@@ -24,6 +24,12 @@ const Home = () => {
         price: (<div class= "Neo2">$49.00</div> )
     }
 
+    let HardDriveDock = {
+        title: "Hard Drive Dock",
+        image: (<img class="HardDriveDock" src="./images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
+        price: (<div class="HardDriveDock">$25.99</div>)
+    }
+
     return (
         <><>
             <Navbar />
