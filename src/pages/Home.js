@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navbar from '../components/Navbar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -15,29 +15,29 @@ const Home = () => {
             id: 1,
             link: "NeoRhythm",
             title: "NeoRhythm",
-            image: ( <img class="product-card" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />),
-            price: (<div class="Neo">$299.99</div>)
+            image: ( <img className="product-card" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />),
+            price: (<div className="Neo">$299.99</div>)
         },
         {
             id: 2,
             link: "NeoWrap",
             title: "NeoWrap",
-            image: (<img class= "product-card" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> ),
-            price: (<div class= "Neo2">$49.00</div> )
+            image: (<img className= "product-card" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> ),
+            price: (<div className= "Neo2">$49.00</div> )
         }, 
         {
             id: 3,
             link: "HardDriveDock",
             title: "Hard Drive Dock",
-            image: (<img class="HardDriveDock product-card" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
-            price: (<div class="HardDriveDock">$25.99</div>)
+            image: (<img className="HardDriveDock product-card" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
+            price: (<div className="HardDriveDock">$25.99</div>)
         }, 
         {
             id: 4,
             link: "StreamDeck",
             title: "Elegato Stream Deck",
-            image: (<img class="StreamDeck product-card" src="/Images/StreamDeck.jpg" alt="Stream Deck" /> ),
-            price: (<div class="HardDriveDock">$151.48</div>)
+            image: (<img className="StreamDeck product-card" src="/Images/StreamDeck.jpg" alt="Stream Deck" /> ),
+            price: (<div className="HardDriveDock">$151.48</div>)
         }, 
         {
             id: 5,
@@ -92,9 +92,6 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container></>
-
-
-
     );
 };
 
