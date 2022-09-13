@@ -36,6 +36,16 @@ const Navbar = () => {
                         <Link className="navigate" to='/va88m_sakura_keyboard'>VA88M</Link>
                     </a>
                 </li>
+                <li className="nav-item">
+                    <a className="nav-link">
+                        <Link className="navigate" to='/HardDriveDock'>Hard Drive Dock</Link>
+                    </a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link">
+                        <Link className="navigate" to='/StreamDeck'>Stream Deck</Link>
+                    </a>
+                </li>
                 </ul>
             </div>
                     </nav>

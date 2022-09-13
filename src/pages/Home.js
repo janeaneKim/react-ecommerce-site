@@ -34,10 +34,10 @@ const Home = () => {
         }, 
         {
             id: 4,
-            link: "HardDriveDock",
-            title: "Hard Drive Dock",
-            image: (<img class="HardDriveDock product-card" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
-            price: (<div class="HardDriveDock">$25.99</div>)
+            link: "StreamDeck",
+            title: "Elegato Stream Deck",
+            image: (<img class="StreamDeck product-card" src="/Images/StreamDeck.jpg" alt="Stream Deck" /> ),
+            price: (<div class="HardDriveDock">$151.48</div>)
         }, 
         {
             id: 5,
