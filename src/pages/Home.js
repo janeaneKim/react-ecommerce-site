@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link, Outlet } from "react-router-dom";
 import Navbar from '../components/Navbar';
 import Card from 'react-bootstrap/Card';
@@ -10,7 +11,60 @@ import '../App.css';
 import ProductCard from '../pages/ProductCard.js';
 
 const Home = () => {
+    let [productList, setProductList] = React.useState([
+        {
+            id: 1,
+            link: "NeoRhythm",
+            title: "NeoRhythm",
+            image: ( <img class="product-card" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />),
+            price: (<div class="Neo">$299.99</div>)
+        },
+        {
+            id: 2,
+            link: "NeoWrap",
+            title: "NeoWrap",
+            image: (<img class= "product-card" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> ),
+            price: (<div class= "Neo2">$49.00</div> )
+        }, 
+        {
+            id: 3,
+            link: "HardDriveDock",
+            title: "Hard Drive Dock",
+            image: (<img class="HardDriveDock product-card" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
+            price: (<div class="HardDriveDock">$25.99</div>)
+        }, 
+        {
+            id: 4,
+            link: "HardDriveDock",
+            title: "Hard Drive Dock",
+            image: (<img class="HardDriveDock product-card" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
+            price: (<div class="HardDriveDock">$25.99</div>)
+        }, 
+        {
+            id: 5,
+            link: "keychron_k8_keyboard",
+            title: "Keychron K8 Keyboard",
+            image: ( <Image className="product-card" variant="top" src="../Images/Keychron.webp" fluid={true} /> ),
+            price: (<div>$100.00</div> )
+        }, 
+        {
+            id: 6,
+            link: "va88m_sakura_keyboard",
+            title: "Varmillo Sakura Edition Keyboard",
+            image: ( <Image className="product-card" variant="top" src="../Images/SakuraKeyboard.jpg" fluid={true}/> ),
+            price: (<div>$150.00</div> )
+        }
+    ]);
+
+    let productArray = productList.map((product) => 
+        <li key={product.id}>
+            <ProductCard info={product} />
+        </li>
+    )
+
+
     let NeoRhythm = {
+        id: 1,
         link: "NeoRhythm",
         title: "NeoRhythm",
         image: ( <img class="product-card" src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png" alt="NeoRhythm" />),
@@ -18,6 +72,7 @@ const Home = () => {
     }
 
     let NeoWrap = {
+        id: 2,
         link: "NeoWrap",
         title: "NeoWrap",
         image: (<img class= "product-card" src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180" alt="NeoWrap" /> ),
@@ -25,6 +80,7 @@ const Home = () => {
     }
 
     let HardDriveDock = {
+        id: 3,
         link: "HardDriveDock",
         title: "Hard Drive Dock",
         image: (<img class="HardDriveDock product-card" src="/Images/HardDriveDock.jpg" alt="Hard Drive Dock" /> ),
@@ -32,6 +88,7 @@ const Home = () => {
     }
 
     let k8 ={
+        id: 5,
         link: "keychron_k8_keyboard",
         title: "Keychron K8 Keyboard",
         image: ( <Image className="product-card" variant="top" src="../Images/Keychron.webp" fluid={true} /> ),
@@ -39,6 +96,7 @@ const Home = () => {
     }
 
     let sakura ={
+        id: 6,
         link: "va88m_sakura_keyboard",
         title: "Varmillo Sakura Edition Keyboard",
         image: ( <Image className="product-card" variant="top" src="../Images/SakuraKeyboard.jpg" fluid={true}/> ),
@@ -54,7 +112,10 @@ const Home = () => {
             </section>
         
         </><Container fluid ="xl">
-                <Row>
+            <div>
+                {productArray}
+            </div>
+                {/* <Row>
                     <Col md>
                         <ProductCard  info={NeoRhythm}/>
                     </Col>
@@ -87,7 +148,7 @@ const Home = () => {
                     <Col md>
                         <ProductCard info={sakura} />
                     </Col>
-                </Row>
+                </Row> */}
             </Container></>
 
 

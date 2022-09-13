@@ -28,6 +28,7 @@ return (
                         <div>
                             <label for="quantity" >Quantity: </label>
                             <input type="number" placeholder="1" min="1" max="5"></input>
+                            <br/>
                             <Button variant="success" size="md" type="submit" value="Submit" id="submit">Add to Cart</Button>
                         </div>
                     </form>
