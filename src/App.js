@@ -5,6 +5,8 @@ import LeviApp2 from './pages/LeviApp2';
 import Error from './pages/Error';
 import Sakura from './pages/Sakura';
 import Keychron from './pages/Keychron';
+import HardDriveDock from './pages/HardDriveDock';
+import StreamDeck from './pages/StreamDeck';
 import './App.css';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
@@ -25,6 +27,8 @@ function App  ()  {
         <Route path="*" element={<Error />} />
         <Route path="va88m_sakura_keyboard" element={<Sakura />}/> 
         <Route path="keychron_k8_keyboard" element={<Keychron />}/> 
+        <Route path="HardDriveDock" element={<HardDriveDock />}/>
+        <Route path="StreamDeck" element={<StreamDeck />}/>
         <Route />
       </Routes>
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
