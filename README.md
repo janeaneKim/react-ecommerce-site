@@ -6,7 +6,7 @@ Ecommerce Site created with React functional components and React Bootstrap with
 
 Homepage with Navbar, Carousel, and Footer with reuseable card components. 
 <p align="center">
-  <img width="400" height="300" src="https://user-images.githubusercontent.com/93021938/190177408-ddcee113-6708-48f5-915b-0e43ee904290.png">
+  <img width="500" height="400" src="https://user-images.githubusercontent.com/93021938/190177408-ddcee113-6708-48f5-915b-0e43ee904290.png">
 </p>
 
 <p align="center">
