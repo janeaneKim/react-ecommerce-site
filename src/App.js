@@ -94,20 +94,31 @@ function App() {
                     </Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <Link to="/NeoWrap" className="text-reset">
                       NeoWrap
-                    </a>
+                    </Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">
-                      Add product
-                    </a>
+                    <Link to="/HardDriveDock" className="text-reset">
+                      Hard Drive Dock
+                    </Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">
-                      Add Product
-                    </a>
+                    <Link to="/StreamDeck" className="text-reset">
+                      Stream Deck
+                    </Link>
                   </p>
+                  <p>
+                    <Link to="/keychron_k8_keyboard" className="text-reset">
+                      KeyChrom K8 Keyboard
+                    </Link>
+                  </p>
+                  <p>
+                    <Link to="/va88m_sakura_keyboard" className="text-reset">
+                      Sakura Keyboard
+                    </Link>
+                  </p>
+                  
                 </MDBCol>
 
                 <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">

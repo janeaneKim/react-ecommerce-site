@@ -15,15 +15,15 @@ return (
         <Container className="container">
             <Row>
                 <Col>
-                    <h2>Varmilo Sakura Edition Keyboard</h2>
-                    <p>$150.00</p>
+                    <h2>Elegato Stream Deck</h2>
+                    <p>$149.99</p>
                     <br/>
-                    <ul>
-                        <li>VA88M Special Edition Sakura Keyboard ISO layout with a decorated SpaceBar and pink colorway.</li>
-                        <li>This keyboard somes with PBT keycaps and Cherry Switches.</li>
-                        <li>Featuring 2x3x4mm LEDs that can be switched on/off.</li>
-                        <li>Mac OS X compatible.</li>
-                    </ul>
+                    <p>
+                        Gone are the days of navigating myriad windows to trigger an action, 
+                        and relying solely on automated plugins to expand your production value. 
+                        Now, you hold the power to pioneer a new era of content creation, and lead 
+                        your audience to uncharted frontiers of inspiration. Now, you’re in control.  
+                    </p>
                     <form method="post" action="">
                         <div>
                             <label for="quantity" >Quantity: </label>
@@ -35,7 +35,7 @@ return (
                 </Col>
 
                 <Col>
-                    <img src="../Images/SakuraKeyboard.jpg" alt="sakura-keyboard" style={{maxHeight:"100%", maxWidth:"100%"}}></img>
+                    <img src="../Images/StreamDeck2.jpg" alt="StreamDeck" style={{maxHeight:"100%", maxWidth:"100%"}}></img>
                 </Col>
             </Row>
             <br/>
@@ -52,11 +52,11 @@ return (
       <tbody>
         <tr>
           <td>Size</td>
-          <td>5.28" x 14.02" x 1.30"</td>
+          <td>118 x 84 x 21 mm / 4.6 x 3.3 x 0.8 in</td>
         </tr>
         <tr>
-          <td>Layout</td>
-          <td>ISO</td>
+          <td>Keys</td>
+          <td>15 x customizable LCD keys</td>
         </tr>
         <tr>
           <td>Windows Compatible</td>
@@ -67,8 +67,8 @@ return (
           <td>Yes</td>
         </tr>
         <tr>
-          <td>Weight (lbs)</td>
-          <td>2.00</td>
+          <td>Weight (kg)</td>
+          <td>190</td>
         </tr>
       </tbody>
     </Table>
