@@ -6,5 +6,7 @@ Ecommerce Site created with React functional components and React Bootstrap with
 
 
 <p align="center">
-  <img width="300" height="200" src="https://user-images.githubusercontent.com/93021938/189277181-b0749938-addb-4f6e-b729-4ae6e6740e0d.pn](https://user-images.githubusercontent.com/93021938/190177088-733349b4-50ac-4b03-a386-2c541db5b33f.png">
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/93021938/190177408-ddcee113-6708-48f5-915b-0e43ee904290.png">
 </p>
+
+![Screen Shot 2022-09-14 at 6 58 41 AM](https://user-images.githubusercontent.com/93021938/190177408-ddcee113-6708-48f5-915b-0e43ee904290.png)
