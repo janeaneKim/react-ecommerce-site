@@ -19,12 +19,12 @@ const Home = () => {
       title: "NeoRhythm",
       image: (
         <img
-          class="product-card"
+          className="product-card"
           src="https://omnipemf.com/wp-content/uploads/2022/02/NeoRhytm_9x9.png"
           alt="NeoRhythm"
         />
       ),
-      price: <div class="Neo">$299.99</div>,
+      price: <div className="Neo">$299.99</div>,
     },
     {
       id: 2,
@@ -32,12 +32,12 @@ const Home = () => {
       title: "NeoWrap",
       image: (
         <img
-          class="product-card"
+          className="product-card"
           src="https://omnipemf.com/wp-content/uploads/2022/03/wrap.pngholder.js/100px180"
           alt="NeoWrap"
         />
       ),
-      price: <div class="Neo2">$49.00</div>,
+      price: <div className="Neo2">$49.00</div>,
     },
     {
       id: 3,
@@ -45,12 +45,12 @@ const Home = () => {
       title: "Hard Drive Dock",
       image: (
         <img
-          class="HardDriveDock product-card"
+          className="HardDriveDock product-card"
           src="/Images/HardDriveDock.jpg"
           alt="Hard Drive Dock"
         />
       ),
-      price: <div class="HardDriveDock">$25.99</div>,
+      price: <div className="HardDriveDock">$25.99</div>,
     },
     {
       id: 4,
@@ -58,12 +58,12 @@ const Home = () => {
       title: "Elegato Stream Deck",
       image: (
         <img
-          class="StreamDeck product-card"
+          className="StreamDeck product-card"
           src="/Images/StreamDeck.jpg"
           alt="Stream Deck"
         />
       ),
-      price: <div class="HardDriveDock">$151.48</div>,
+      price: <div className="HardDriveDock">$151.48</div>,
     },
     {
       id: 5,
@@ -107,26 +107,25 @@ const Home = () => {
           <Outlet />
         </section>
 
-        <div class="card">
-          <div class="card-header">Partners in Code</div> 
-          <div class="card-body">
-            <h5 class="card-title">
+        <div className="card">
+          <div className="card-header">Partners in Code</div> 
+          <div className="card-body">
+            <h5 className="card-title">
               Welcome to our site! Please choose from a variety of different
               products.
             </h5>
-            <p class="card-text"></p>
+            <p className="card-text"></p>
           </div>
         </div>
-
+        
+        <Container fluid>
         <Carousel variant="dark">
           <Carousel.Item>
-            <Link to="/NeoRhythm">
               <Image fluid
                 className="Neo3"
                 src="../Images/Neo5.jpg"
                 alt="First slide"
               />{" "}
-            </Link>
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -163,7 +162,7 @@ const Home = () => {
 
           <Carousel.Item>
             <Link to="/HardDriveDock">
-              <Image
+              <Image fluid
                 className="Neo3"
                 src="../Images/HardDriveDock.jpg"
                 alt="Fifth slide"
@@ -174,7 +173,7 @@ const Home = () => {
 
           <Carousel.Item>
             <Link to="/StreamDeck">
-              <Image
+              <Image fluid
                 className="Neo3"
                 src="../Images/StreamDeck2.jpg"
                 alt="Sixth slide"
@@ -183,6 +182,7 @@ const Home = () => {
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        </Container>
       </>
 
       <Container fluid="xl">
