@@ -62,8 +62,8 @@
 
 }
 
- .carousel {
-  max-height: 300px;
+.carousel {
+  height: 300px;
 }
 
 .code{ width: 6%;

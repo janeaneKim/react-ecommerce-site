@@ -15,15 +15,14 @@ return (
         <Container className="container">
             <Row>
                 <Col>
-                    <h2>Varmilo Sakura Edition Keyboard</h2>
-                    <p>$150.00</p>
+                    <h2>Hard Drive Dock</h2>
+                    <p>$25.99</p>
                     <br/>
-                    <ul>
-                        <li>VA88M Special Edition Sakura Keyboard ISO layout with a decorated SpaceBar and pink colorway.</li>
-                        <li>This keyboard somes with PBT keycaps and Cherry Switches.</li>
-                        <li>Featuring 2x3x4mm LEDs that can be switched on/off.</li>
-                        <li>Mac OS X compatible.</li>
-                    </ul>
+                        <p>
+                            VWavlink USB 3.0 to SATA I/II/II Dual Bay External Hard Drive Docking Station for 2.5" 3.5" SATA 
+                            HDD/SSD Enclosure 2x 16TB Hard Drive Enclosure With UASP, Support Offline Clone Duplicator, 
+                            Auto Sleep
+                        </p>
                     <form method="post" action="">
                         <div>
                             <label for="quantity" >Quantity: </label>
@@ -35,7 +34,7 @@ return (
                 </Col>
 
                 <Col>
-                    <img src="../Images/SakuraKeyboard.jpg" alt="sakura-keyboard" style={{maxHeight:"100%", maxWidth:"100%"}}></img>
+                    <img src="../Images/HardDriveDock.jpg" alt="sakura-keyboard" style={{maxHeight:"100%", maxWidth:"100%"}}></img>
                 </Col>
             </Row>
             <br/>
@@ -52,11 +51,11 @@ return (
       <tbody>
         <tr>
           <td>Size</td>
-          <td>5.28" x 14.02" x 1.30"</td>
+          <td>Dual bay, fit for 2.5" / 3.5" HDD / SSD</td>
         </tr>
         <tr>
-          <td>Layout</td>
-          <td>ISO</td>
+          <td>Supports</td>
+          <td>Supports SATA I/II/III</td>
         </tr>
         <tr>
           <td>Windows Compatible</td>
@@ -67,8 +66,8 @@ return (
           <td>Yes</td>
         </tr>
         <tr>
-          <td>Weight (lbs)</td>
-          <td>2.00</td>
+          <td>Output</td>
+          <td>USB 3.0</td>
         </tr>
       </tbody>
     </Table>
