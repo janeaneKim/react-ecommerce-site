@@ -85,3 +85,31 @@ Link {
     color: inherit;
     text-decoration: inherit;
 }
+
+.Neo3{ 
+    margin-left: auto;
+    margin-right: auto;   
+    display: block;
+    width: 20%; 
+    
+
+}
+
+.button1 { background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: #c58a0c; /* Green */
+    color: white;
+  }
+
+
+
