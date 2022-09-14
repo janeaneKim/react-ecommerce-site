@@ -183,7 +183,7 @@ const Home = () => {
                 className="d-block w-100"
                 class="Neo3"
                 src="../Images/StreamDeck2.jpg"
-                alt="Third slide"
+                alt="Sixth slide"
               />
             </Link>
             <Carousel.Caption></Carousel.Caption>

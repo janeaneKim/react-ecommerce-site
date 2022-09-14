@@ -55,7 +55,7 @@
   left: 0,;
   bottom: 0,;
   right: 0,;
-  backgroundColor: "green";
+  /* backgroundColor: "green"; */
 }
 
 .list-unstyled mb-0 {font-style: italic;
