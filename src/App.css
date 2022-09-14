@@ -63,8 +63,17 @@
 }
 
 .carousel {
-  height: 300px;
+  width:100vw !important;
+  height:250px;
 }
+
+.carousel-item {
+  height: 250px;
+}
+ 
+/* .carousel {
+  height: 250px;
+}  */
 
 .code{ width: 6%;
        height: 25%;

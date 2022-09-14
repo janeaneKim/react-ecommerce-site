@@ -8,9 +8,6 @@ import Keychron from "./pages/Keychron";
 import HardDriveDock from "./pages/HardDriveDock";
 import StreamDeck from "./pages/StreamDeck";
 import "./App.css";
-import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,
@@ -89,32 +86,32 @@ function App() {
                 <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
                   <h6 className="text-uppercase fw-bold mb-4">Products</h6>
                   <p>
-                    <Link to="/NeoRhythm" className="text-reset">
+                    <Link to="/NeoRhythm" className="text-reset navigate">
                       NeoRhythm
                     </Link>
                   </p>
                   <p>
-                    <Link to="/NeoWrap" className="text-reset">
+                    <Link to="/NeoWrap" className="text-reset navigate">
                       NeoWrap
                     </Link>
                   </p>
                   <p>
-                    <Link to="/HardDriveDock" className="text-reset">
+                    <Link to="/HardDriveDock" className="text-reset navigate">
                       Hard Drive Dock
                     </Link>
                   </p>
                   <p>
-                    <Link to="/StreamDeck" className="text-reset">
+                    <Link to="/StreamDeck" className="text-reset navigate">
                       Stream Deck
                     </Link>
                   </p>
                   <p>
-                    <Link to="/keychron_k8_keyboard" className="text-reset">
-                      KeyChrom K8 Keyboard
+                    <Link to="/keychron_k8_keyboard" className="text-reset navigate">
+                      K8 Keyboard
                     </Link>
                   </p>
                   <p>
-                    <Link to="/va88m_sakura_keyboard" className="text-reset">
+                    <Link to="/va88m_sakura_keyboard" className="text-reset navigate">
                       Sakura Keyboard
                     </Link>
                   </p>

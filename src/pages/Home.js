@@ -117,12 +117,12 @@ const Home = () => {
             <p class="card-text"></p>
           </div>
         </div>
+
         <Carousel variant="dark">
           <Carousel.Item>
             <Link to="/NeoRhythm">
-              <img
-                className="d-block w-100"
-                class="Neo3"
+              <Image fluid
+                className="Neo3"
                 src="../Images/Neo5.jpg"
                 alt="First slide"
               />{" "}
@@ -131,21 +131,18 @@ const Home = () => {
           </Carousel.Item>
           <Carousel.Item>
             <Link to="/NeoWrap">
-              <img
-                className="d-block w-100"
-                class="Neo3"
+              <Image fluid
+                className="Neo3"
                 src="../Images/Wrap1.webp"
                 alt="Second slide"
               />{" "}
             </Link>
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
-
           <Carousel.Item>
             <Link to="/keychron_k8_keyboard">
-              <img
-                className="d-block w-100"
-                class="Neo3"
+              <Image fluid
+                className="Neo3"
                 src="../Images/Keychron2.webp"
                 alt="Third slide"
               />{" "}
@@ -155,9 +152,8 @@ const Home = () => {
 
           <Carousel.Item>
             <Link to="/va88m_sakura_keyboard">
-              <img
-                className="d-block w-100"
-                class="Neo3"
+              <Image fluid
+                className="Neo3"
                 src="../Images/VA88.jpg"
                 alt="Fourth slide"
               />{" "}
@@ -167,9 +163,8 @@ const Home = () => {
 
           <Carousel.Item>
             <Link to="/HardDriveDock">
-              <img
-                className="d-block w-100"
-                class="Neo3"
+              <Image
+                className="Neo3"
                 src="../Images/HardDriveDock.jpg"
                 alt="Fifth slide"
               />{" "}
@@ -179,9 +174,8 @@ const Home = () => {
 
           <Carousel.Item>
             <Link to="/StreamDeck">
-              <img
-                className="d-block w-100"
-                class="Neo3"
+              <Image
+                className="Neo3"
                 src="../Images/StreamDeck2.jpg"
                 alt="Sixth slide"
               />
